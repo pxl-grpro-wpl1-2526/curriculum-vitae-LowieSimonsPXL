@@ -1,0 +1,40 @@
+body{
+    background-color: white;
+}
+h1{
+    text-align: center;
+}
+.intro{
+    display: flex;
+    width: 250px;
+    position: relative;
+    left: 1200px;
+    font-size: 22px;
+}
+.Boven{
+    position : relative;
+    left: 1750px;
+}
+button{
+    position: relative;
+    top: 5px;
+    height: 30px;
+    width: 140px;
+    font-size: 15px;
+}
+.opdracht{
+    position: relative;
+    top: 55px;
+    text-align: center;
+    font-size: 18px;
+}
+.Naam{
+    position: relative;
+    top: 90px;
+    text-align: left;
+    font-size: 18px;
+}
+hr{
+    position: relative;
+    top: 90px;
+}
