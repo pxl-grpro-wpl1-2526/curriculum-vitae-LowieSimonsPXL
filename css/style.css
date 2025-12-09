@@ -1,15 +1,113 @@
 body{
-    background-color: white;
+    background-color: lightgray;
 }
 h1{
     text-align: center;
 }
 .intro{
+    border-radius: 25px;
     display: flex;
-    width: 250px;
+    width: 500px;
+    height: 350px;
+    padding: 20px;
     position: relative;
-    left: 1200px;
-    font-size: 22px;
+    left: 675px;
+    background-color: mintcream;
+    h2{
+        font-size: 40px;
+        display: flex;
+        position: relative;
+        left:150px;
+        bottom: 45px;
+    }
+    p{
+        font-size: 25px;
+        display: flex;
+        position: relative;
+        right:80px;
+        top:30px;
+    }
+}
+.Diploma{
+    border-radius: 25px;
+    display: flex;
+    width: 350px;
+    height: 350px;
+    padding: 20px;
+    position: relative;
+    left:250px;
+    top: 75px;
+    background-color: mintcream;
+    h2{
+        font-size: 40px;
+        display: flex;
+        position: relative;
+        left:116px;
+        right:116px;
+        bottom: 45px;
+    }
+    p{
+        font-size: 25px;
+    }
+}
+.Tskills{
+    border-radius: 25px;
+    display: flex;
+    width: 350px;
+    height: 350px;
+    padding: 20px;
+    position: relative;
+    left:750px;
+    bottom: 315px;
+    background-color: mintcream;
+    h2{
+        font-size: 40px;
+        display: flex;
+        position: relative;
+        left:116px;
+        right:116px;
+        bottom: 45px;
+    }
+    p{
+        font-size: 25px;
+        justify-content: flex-start;
+
+    }
+}
+.Sskills{
+    border-radius: 25px;
+    display: flex;
+    width: 350px;
+    height: 350px;
+    padding: 20px;
+    position: relative;
+    left:1250px;
+    bottom: 705px;
+    background-color: mintcream;
+    h2 {
+        font-size: 40px;
+        display: flex;
+        position: relative;
+        left: 116px;
+        right: 116px;
+        bottom: 45px;
+    }
+    p{
+        font-size: 25px;
+
+
+    }
+}
+.Talenkennis{
+    border-radius: 25px;
+    display: flex;
+    width: 1350px;
+    height: 350px;
+    padding: 20px;
+    position: relative;
+    bottom:450px;
+    left: 250px;
+    background-color: mintcream;
 }
 .Boven{
     position : relative;
