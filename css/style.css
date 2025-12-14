@@ -1,29 +1,30 @@
 body{
     background-color: lightgray;
 }
-img{
-    width: 300px;
-    height: 385px;
-    position: relative;
-    left:250px;
-    top:270px;
-
-}
-img:hover{
-    box-shadow: 10px 10px 20px #000;
-}
-h1{
-    text-align: center;
-    position:relative;
-    bottom:350px;
-    font-size: 50px;
+header {
+    img {
+        width: 300px;
+        height: 385px;
+        position: relative;
+        left: 250px;
+        top: 270px;
+    }
+    img:hover {
+        box-shadow: 10px 10px 20px #000;
+    }
+    h1 {
+        text-align: center;
+        position: relative;
+        bottom: 350px;
+        font-size: 50px;
+    }
 }
 .intro{
     border-radius: 25px;
     display: flex;
     width: 1000px;
     height: 350px;
-    padding: 20px;
+    padding:20px;
     position: relative;
     left: 600px;
     bottom:250px;
@@ -49,7 +50,7 @@ h1{
     display: flex;
     width: 350px;
     height: 350px;
-    padding: 20px;
+    padding:20px;
     position: relative;
     left:250px;
     bottom: 125px;
@@ -78,7 +79,7 @@ h1{
     display: flex;
     width: 350px;
     height: 350px;
-    padding: 20px;
+    padding:20px;
     position: relative;
     left:750px;
     bottom: 515px;
@@ -105,7 +106,7 @@ h1{
     display: flex;
     width: 350px;
     height: 350px;
-    padding: 20px;
+    padding:20px;
     position: relative;
     left:1250px;
     bottom: 905px;
@@ -123,8 +124,6 @@ h1{
         position: relative;
         right:240px;
         top:50px;
-
-
     }
 }
 .Talenkennis{
@@ -132,7 +131,7 @@ h1{
     display: flex;
     width: 1350px;
     height: 350px;
-    padding: 20px;
+    padding:20px;
     position: relative;
     bottom:800px;
     left: 250px;
@@ -169,7 +168,7 @@ h1{
     display: flex;
     width: 1350px;
     height: 350px;
-    padding: 20px;
+    padding:20px;
     position: relative;
     bottom:700px;
     left: 250px;
@@ -194,7 +193,7 @@ h1{
     }
     .school{
         position: relative;
-        right: 180px;
+        right: 250px;
         top: 100px;
     }
     .AH{
@@ -203,15 +202,46 @@ h1{
         right: 150px;
     }
 }
+.Hobby{
+    border-radius: 25px;
+    display: flex;
+    width: 1350px;
+    height: 350px;
+    padding:20px;
+    position: relative;
+    bottom:600px;
+    left: 250px;
+    background-color: mintcream;
+    h2{
+        font-size: 40px;
+        text-decoration: underline;
+        position: relative;
+        left: 550px;
+        bottom: 45px;
+    }
+    p{
+        font-size: 25px;
+        position: relative;
+        right:40px;
+        top:110px;
+    }
+}
 .Boven{
     position : relative;
     left: 1750px;
 }
 button{
-    position: relative;
-    bottom: 475px;
-    height: 30px;
-    width: 140px;
+    position: fixed;
+    bottom: 20px;
+    right: 5px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 25px;
     font-size: 15px;
 }
 .opdracht{
