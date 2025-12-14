@@ -1,29 +1,39 @@
 body{
     background-color: lightgray;
 }
+img{
+    width: 200px;
+    position:relative;
+    top:200px;
+    left:300px;
+}
+img:hover{
+    box-shadow: 10px 10px 20px #000;
+}
 h1{
     text-align: center;
 }
 .intro{
     border-radius: 25px;
     display: flex;
-    width: 500px;
+    width: 1000px;
     height: 350px;
     padding: 20px;
     position: relative;
-    left: 675px;
+    left: 450px;
+    bottom:250px;
     background-color: mintcream;
     h2{
         font-size: 40px;
         display: flex;
         position: relative;
-        left:150px;
+        left:400px;
         bottom: 45px;
     }
     p{
         font-size: 25px;
-        display: flex;
         position: relative;
+        text-align: right;
         right:80px;
         top:30px;
     }
@@ -36,7 +46,7 @@ h1{
     padding: 20px;
     position: relative;
     left:250px;
-    top: 75px;
+    bottom: 125px;
     background-color: mintcream;
     h2{
         font-size: 40px;
@@ -62,7 +72,7 @@ h1{
     padding: 20px;
     position: relative;
     left:750px;
-    bottom: 315px;
+    bottom: 515px;
     background-color: mintcream;
     h2{
         font-size: 40px;
@@ -88,7 +98,7 @@ h1{
     padding: 20px;
     position: relative;
     left:1250px;
-    bottom: 705px;
+    bottom: 905px;
     background-color: mintcream;
     h2{
         font-size: 40px;
@@ -113,7 +123,7 @@ h1{
     height: 350px;
     padding: 20px;
     position: relative;
-    bottom:450px;
+    bottom:800px;
     left: 250px;
     background-color: mintcream;
     h2{
@@ -138,6 +148,23 @@ h1{
         table-layout: fixed;
     }
 
+}
+.Werk{
+    border-radius: 25px;
+    display: flex;
+    width: 1350px;
+    height: 350px;
+    padding: 20px;
+    position: relative;
+    bottom:700px;
+    left: 250px;
+    background-color: mintcream;
+    h2{
+        font-size: 40px;
+        position: relative;
+        left: 550px;
+        bottom: 45px;
+    }
 }
 .Boven{
     position : relative;
