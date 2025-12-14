@@ -3,7 +3,7 @@ body{
 }
 img{
     width: 200px;
-    position:relative;
+
 }
 img:hover{
     box-shadow: 10px 10px 20px #000;
@@ -25,6 +25,7 @@ h1{
     background-color: mintcream;
     h2{
         font-size: 40px;
+        text-decoration: underline;
         display: flex;
         position: relative;
         left:400px;
@@ -35,7 +36,7 @@ h1{
         position: relative;
         text-align: right;
         right:80px;
-        top:30px;
+        top:90px;
     }
 }
 .Diploma{
@@ -50,6 +51,7 @@ h1{
     background-color: mintcream;
     h2{
         font-size: 40px;
+        text-decoration: underline;
         display: flex;
         position: relative;
         left:116px;
@@ -59,9 +61,11 @@ h1{
     ul{
         font-size: 25px;
         position: relative;
-        right:80px;
+        right:175px;
         top:50px;
-
+    }
+    .secundair{
+        white-space: nowrap;
     }
 }
 .Tskills{
@@ -76,17 +80,18 @@ h1{
     background-color: mintcream;
     h2{
         font-size: 40px;
-        display: flex;
+        text-decoration: underline;
+        white-space: nowrap;
         position: relative;
-        left:116px;
-        right:116px;
+        left: 30px;
         bottom: 45px;
     }
     ul{
         font-size: 25px;
+        white-space: nowrap;
         position: relative;
-        right:180px;
-        top:80px;
+        right:310px;
+        top:50px;
 
     }
 }
@@ -102,16 +107,17 @@ h1{
     background-color: mintcream;
     h2{
         font-size: 40px;
+        text-decoration: underline;
+        white-space: nowrap;
         position: relative;
-        left: 116px;
-        right: 116px;
+        left: 60px;
         bottom: 45px;
     }
     ul{
         font-size: 25px;
         position: relative;
-        right:150px;
-        top:80px;
+        right:240px;
+        top:50px;
 
 
     }
@@ -128,12 +134,16 @@ h1{
     background-color: mintcream;
     h2{
         font-size: 40px;
+        text-decoration: underline;
         position: relative;
         left: 550px;
         bottom: 45px;
     }
     td {
         border: 2px solid black;
+    }
+    tr:nth-child(even){
+        background-color: lightgray;
     }
 
     table {
@@ -161,9 +171,31 @@ h1{
     background-color: mintcream;
     h2{
         font-size: 40px;
+        text-decoration: underline;
         position: relative;
         left: 550px;
         bottom: 45px;
+    }
+    h3{
+        display: flex;
+        position: relative;
+        top: 50px;
+        text-align:center;
+        white-space: nowrap;
+    }
+    li{
+        font-size: 20px;
+        position: relative;
+    }
+    .school{
+        position: relative;
+        right: 180px;
+        top: 100px;
+    }
+    .AH{
+        position: relative;
+        top: 100px;
+        right: 150px;
     }
 }
 .Boven{
@@ -172,24 +204,24 @@ h1{
 }
 button{
     position: relative;
-    top: 5px;
+    bottom: 475px;
     height: 30px;
     width: 140px;
     font-size: 15px;
 }
 .opdracht{
     position: relative;
-    top: 55px;
+    bottom: 445px;
     text-align: center;
     font-size: 18px;
 }
 .Naam{
     position: relative;
-    top: 90px;
+    bottom: 400px;
     text-align: left;
     font-size: 18px;
 }
 hr{
     position: relative;
-    top: 90px;
+    bottom: 390px;
 }
