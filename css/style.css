@@ -1,3 +1,4 @@
+
 body{
     background-color: lightgray;
 }
@@ -232,7 +233,7 @@ header {
 }
 button{
     position: fixed;
-    bottom: 20px;
+    bottom: 10px;
     right: 5px;
     z-index: 99;
     border: none;
@@ -246,17 +247,16 @@ button{
 }
 .opdracht{
     position: relative;
-    bottom: 445px;
+    top: 75px;
     text-align: center;
-    font-size: 18px;
+    font-size: 25px;
 }
 .Naam{
     position: relative;
-    bottom: 400px;
+    top: 130px;
     text-align: left;
-    font-size: 18px;
+    font-size: 25px;
 }
-hr{
-    position: relative;
-    bottom: 390px;
+@media screen and (max-width: 576px) {
 }
+
