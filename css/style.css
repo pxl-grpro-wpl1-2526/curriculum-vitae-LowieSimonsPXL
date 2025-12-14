@@ -4,14 +4,14 @@ body{
 img{
     width: 200px;
     position:relative;
-    top:200px;
-    left:300px;
 }
 img:hover{
     box-shadow: 10px 10px 20px #000;
 }
 h1{
     text-align: center;
+    position:relative;
+    bottom:250px;
 }
 .intro{
     border-radius: 25px;
