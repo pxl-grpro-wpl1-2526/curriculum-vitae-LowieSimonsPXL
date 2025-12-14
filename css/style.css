@@ -46,8 +46,12 @@ h1{
         right:116px;
         bottom: 45px;
     }
-    p{
+    ul{
         font-size: 25px;
+        position: relative;
+        right:80px;
+        top:50px;
+
     }
 }
 .Tskills{
@@ -68,9 +72,11 @@ h1{
         right:116px;
         bottom: 45px;
     }
-    p{
+    ul{
         font-size: 25px;
-        justify-content: flex-start;
+        position: relative;
+        right:180px;
+        top:80px;
 
     }
 }
@@ -84,16 +90,18 @@ h1{
     left:1250px;
     bottom: 705px;
     background-color: mintcream;
-    h2 {
+    h2{
         font-size: 40px;
-        display: flex;
         position: relative;
         left: 116px;
         right: 116px;
         bottom: 45px;
     }
-    p{
+    ul{
         font-size: 25px;
+        position: relative;
+        right:150px;
+        top:80px;
 
 
     }
@@ -108,6 +116,28 @@ h1{
     bottom:450px;
     left: 250px;
     background-color: mintcream;
+    h2{
+        font-size: 40px;
+        position: relative;
+        left: 550px;
+        bottom: 45px;
+    }
+    td {
+        border: 2px solid black;
+    }
+
+    table {
+        width: 800px;
+        height: 300px;
+        position: relative;
+        top: 50px;
+        left:50px;
+        text-align: center;
+        border: 4px solid gray;
+        border-collapse: collapse;
+        table-layout: fixed;
+    }
+
 }
 .Boven{
     position : relative;
