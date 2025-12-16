@@ -1,239 +1,138 @@
-
-body{
+body {
     background-color: lightgray;
+    font-family: Arial, sans-serif;
 }
 header {
-    img {
-        width: 300px;
-        height: 385px;
-        position: relative;
-        left: 250px;
-        top: 270px;
-    }
-    img:hover {
-        box-shadow: 10px 10px 20px #000;
-    }
-    h1 {
-        text-align: center;
-        position: relative;
-        bottom: 350px;
-        font-size: 50px;
-    }
-}
-.intro{
-    border-radius: 25px;
     display: flex;
-    width: 1000px;
-    height: 350px;
-    padding:20px;
-    position: relative;
-    left: 600px;
-    bottom:250px;
-    background-color: mintcream;
-    h2{
-        font-size: 40px;
-        text-decoration: underline;
-        display: flex;
-        position: relative;
-        left:400px;
-        bottom: 45px;
-    }
-    p{
-        font-size: 25px;
-        position: relative;
-        text-align: right;
-        right:120px;
-        top:90px;
-    }
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
 }
-.Diploma{
+header img {
     border-radius: 25px;
-    display: flex;
-    width: 350px;
-    height: 350px;
-    padding:20px;
-    position: relative;
-    left:250px;
-    bottom: 125px;
-    background-color: mintcream;
-    h2{
-        font-size: 40px;
-        text-decoration: underline;
-        display: flex;
-        position: relative;
-        left:116px;
-        right:116px;
-        bottom: 45px;
-    }
-    ul{
-        font-size: 25px;
-        position: relative;
-        right:175px;
-        top:50px;
-    }
-    .secundair{
-        white-space: nowrap;
-    }
+    width: 300px;
+    height: 385px;
 }
-.Tskills{
+header img:hover {
+    box-shadow: 10px 10px 20px #000;
+}
+header h1 {
+    font-size: 50px;
+    margin-top: 20px;
+    text-align: center;
+}
+#intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: mintcream;
     border-radius: 25px;
-    display: flex;
-    width: 350px;
-    height: 350px;
-    padding:20px;
-    position: relative;
-    left:750px;
-    bottom: 515px;
-    background-color: mintcream;
-    h2{
-        font-size: 40px;
-        text-decoration: underline;
-        white-space: nowrap;
-        position: relative;
-        left: 30px;
-        bottom: 45px;
-    }
-    ul{
-        font-size: 25px;
-        white-space: nowrap;
-        position: relative;
-        right:310px;
-        top:50px;
-
-    }
+    padding: 20px;
+    max-width: 1350px;
+    margin: 40px auto;
+    gap: 20px;
 }
-.Sskills{
+#intro h2 {
+    font-size: 40px;
+    text-decoration: underline;
+    text-align: center;
+}
+#intro p {
+    font-size: 25px;
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    margin: 40px auto;
+    max-width: 1400px;
+}
+main article {
+    background-color: mintcream;
     border-radius: 25px;
-    display: flex;
-    width: 350px;
-    height: 350px;
-    padding:20px;
-    position: relative;
-    left:1250px;
-    bottom: 905px;
-    background-color: mintcream;
-    h2{
-        font-size: 40px;
-        text-decoration: underline;
-        white-space: nowrap;
-        position: relative;
-        left: 60px;
-        bottom: 45px;
-    }
-    ul{
-        font-size: 25px;
-        position: relative;
-        right:240px;
-        top:50px;
-    }
+    padding: 20px;
+    flex: 1 1 350px;
+    min-height: 350px;
 }
-.Talenkennis{
+main article h2 {
+    font-size: 40px;
+    text-decoration: underline;
+    margin-bottom: 20px;
+    text-align: center;
+}
+main article ul {
+    font-size: 25px;
+    margin-left: 20px;
+}
+#Talenkennis {
+    flex: 1 1 100%;
+}
+#Talenkennis table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    text-align: center;
+    border: 4px solid gray;
+    table-layout: fixed;
+}
+#Talenkennis th, #Talenkennis td {
+    border: 2px solid black;
+    padding: 10px;
+}
+#Talenkennis th {
+    background-color: lightgray;
+}
+#Talenkennis tr:nth-child(even) {
+    background-color: lightgray;
+}
+#Werk h3 {
+    margin-top: 20px;
+    text-align: left;
+}
+#Werk ul {
+    font-size: 20px;
+    margin-top: 10px;
+}
+#Hobby {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#Hobby p {
+    font-size: 25px;
+    margin: 20px 0;
+    text-align: center;
+}
+#Hobby img {
     border-radius: 25px;
-    display: flex;
-    width: 1350px;
-    height: 350px;
-    padding:20px;
+    max-width: 30%;
+}
+footer {
+    background: lightslategray;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    margin-top: 40px;
+}
+footer #Naam{
+    font-size: 25px;
+    margin: 10px 0;
     position: relative;
-    bottom:800px;
-    left: 250px;
-    background-color: mintcream;
-    h2{
-        font-size: 40px;
-        text-decoration: underline;
-        position: relative;
-        left: 550px;
-        bottom: 45px;
-    }
-    td {
-        border: 2px solid black;
-    }
-    tr:nth-child(even){
-        background-color: lightgray;
-    }
-
-    table {
-        width: 800px;
-        height: 300px;
-        position: relative;
-        top: 50px;
-        left:50px;
-        text-align: center;
-        border: 4px solid gray;
-        border-collapse: collapse;
-        table-layout: fixed;
-    }
-
+    top: 25px;
+    text-align: left;
 }
-.Werk{
-    border-radius: 25px;
-    display: flex;
-    width: 1350px;
-    height: 350px;
-    padding:20px;
+footer #opdracht {
+    font-size: 25px;
+    margin: 10px 0;
     position: relative;
-    bottom:700px;
-    left: 250px;
-    background-color: mintcream;
-    h2{
-        font-size: 40px;
-        text-decoration: underline;
-        position: relative;
-        left: 550px;
-        bottom: 45px;
-    }
-    h3{
-        position: relative;
-        top: 50px;
-        text-align:center;
-        white-space: nowrap;
-    }
-    li{
-        font-size: 20px;
-        position: relative;
-    }
-    .school{
-        position: relative;
-        right: 250px;
-        top: 100px;
-    }
-    .AH{
-        position: relative;
-        top: 100px;
-        right: 150px;
-    }
+    bottom: 10px;
+    text-align: center;
 }
-.Hobby{
-    border-radius: 25px;
-    display: flex;
-    width: 1350px;
-    height: 350px;
-    padding:20px;
-    position: relative;
-    bottom:600px;
-    left: 250px;
-    background-color: mintcream;
-    h2{
-        font-size: 40px;
-        text-decoration: underline;
-        position: relative;
-        left: 550px;
-        bottom: 45px;
-    }
-    p{
-        font-size: 25px;
-        position: relative;
-        right:40px;
-        top:110px;
-    }
-}
-.Boven{
-    position : relative;
-    left: 1750px;
-}
-button{
+button {
     position: fixed;
     bottom: 10px;
-    right: 5px;
+    right: 10px;
     z-index: 99;
     border: none;
     outline: none;
@@ -244,18 +143,6 @@ button{
     border-radius: 25px;
     font-size: 15px;
 }
-.opdracht{
-    position: relative;
-    top: 75px;
-    text-align: center;
-    font-size: 25px;
+button:hover {
+    background-color: #444;
 }
-.Naam{
-    position: relative;
-    top: 130px;
-    text-align: left;
-    font-size: 25px;
-}
-@media screen and (max-width: 576px) {
-}
-
