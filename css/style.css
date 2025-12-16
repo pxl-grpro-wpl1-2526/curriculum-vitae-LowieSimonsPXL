@@ -83,6 +83,9 @@ main article ul {
 #Talenkennis th {
     background-color: lightgray;
 }
+#Talenkennis td:nth-child(1) {
+    font-weight: bold;
+}
 #Talenkennis tr:nth-child(even) {
     background-color: lightgray;
 }
